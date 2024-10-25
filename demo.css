@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: burlywood;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: brown;
+  padding: 10px;
+  color: white;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 5px; */
+    margin: 10px;
+    /* padding: 10px; */
+}
+nav{
+    padding: 5px;
+    margin: 10px;
+}
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+  /* padding: 10px; */
+}
+nav ul li a {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.brand{
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+}
+#book a{
+  background-color: burlywood;
+  height: 30px;
+  width: 50px;
+  padding: 10px;
+  border-radius: 20px;
+}
+.countdown{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.day{
+  display: flex; 
+}
+.day h3{
+  margin-right: 20px;
+}
