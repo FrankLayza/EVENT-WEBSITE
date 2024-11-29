@@ -1,4 +1,0 @@
- fonts size for p = 16px
- font family for headings = Montserrat
- font family for text = Lato
- background color for the
